@@ -1,0 +1,25 @@
+1. Suppose the MySQL database host is "localhost", the user name and password both are "root", and there is a data table "score" in the database "student", which has three fields. The types and descriptions are as follows:
+Item
+Type
+Description
+Id
+Int AUTO_INCREMENT
+Primary Key
+Name
+Varchar(20)
+Student name
+Score
+Int
+Score
+Please create these files to realize functions list below:
+（1）manage.html。
+    • Input records of students(you name it and score it ) through a form and submit them to server side to be executed by add.php. 
+    • Click “Check all”button to execute view.php.
+    • Click “Check who fail”button to execute screen.php
+（2）add.php
+    • Add names & scores submitted from manage.html to the score table in student database.
+（3）view.php。
+    • Output the names and scores of all students recorded in score table on the web page. 
+（4）screen.php。
+    • Highlight（using red as font color）the student's name with score below 60; 
+    • Delete records which names are "test" in the table. 
